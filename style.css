@@ -119,12 +119,16 @@ background-color: moccasin;
     color: chocolate;
 }
 footer{
-    background-color: darkslategrey;
+    background-color: slategray;
 }
 .footer-mission{
     text-align: center;
     color: darkgray;    
 }
+
 .future-detail p{
     line-height: 30px; 
+}
+.extra{
+    color: white;
 }
