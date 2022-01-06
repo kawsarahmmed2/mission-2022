@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+}
+.mission{
+    color: chocolate;
+}
+section{
+    margin-bottom: 100px;
+}
+.focused-area{
+    display: flex;
+    margin-left: 50px;
+}
+.focused-area h1{
+    position: relative;
+}
+.focused-area h1::after{
+    position: absolute;
+    content: '';
+    width: 4px; 
+    height: 80px;
+    background-color: brown;
+    top: 14px;
+    left:-5px;
+
+
+}
+.half{
+    width: 50%;
+    padding: 35px;
+}
+.half img{
+    width: 80%;
+}
+p{
+    font-size: 20px;
+}
+button{
+    background-image: linear-gradient(salmon,tomato);
+    border: none;
+    padding: 10px 30px ;
+    border-radius: 4px;
+    color: white;
+}
+.container{
+    text-align: center;
+}
+
+.my-target{ 
+    color: chocolate
+}
+.my-mission{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.single-mission{
+    width: 32%;
+    margin-left: 20px;
+    padding: 20px; 
+    border-radius: 10px;
+}
+.first{
+    background-color: lightblue;
+}
+.second{
+background-color: darkgray;
+}
+.third{
+background-color: moccasin;
+}
+.single-mission img{
+    width: 100px;
+    height: 100px;
+}
+/*  */
+.develop-img img{
+    width: 70%;
+    margin-left: 60px;
+}
+.develop-area{
+    display: flex;    
+}
+/*  */
+.community-area{
+    display: flex; 
+    margin-left: 60px;   
+}
+.community-img img{
+    width: 70%;
+    margin-left: 30px;
+}
+
+.future-area{
+    display: flex;
+}
+.future{
+    text-align: center;
+}
+.future-img{
+    width: 100%;
+}
+.future-detail{
+    padding-top: 30px;
+    padding: 20px;
+}
+.future-detail a{
+    background-color: coral;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 30px;
+}
+.dream{
+    color: chocolate;
+}
+footer{
+    background-color: darkslategrey;
+}
+.footer-mission{
+    text-align: center;
+    color: darkgray;    
+}
+.future-detail p{
+    line-height: 30px; 
+}
