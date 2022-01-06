@@ -123,7 +123,8 @@ footer{
 }
 .footer-mission{
     text-align: center;
-    color: darkgray;    
+    padding: 10px 0;
+    background-image: linear-gradient(#f59660,#f9bd61); 
 }
 
 .future-detail p{
